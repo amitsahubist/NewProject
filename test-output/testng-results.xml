@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-21T00:27:25 IST" name="Default suite" finished-at="2024-12-21T00:27:41 IST" duration-ms="15626">
+  <suite started-at="2024-12-21T00:56:56 IST" name="Default suite" finished-at="2024-12-21T00:57:12 IST" duration-ms="15912">
     <groups>
     </groups>
-    <test started-at="2024-12-21T00:27:25 IST" name="Default test" finished-at="2024-12-21T00:27:41 IST" duration-ms="15626">
+    <test started-at="2024-12-21T00:56:56 IST" name="Default test" finished-at="2024-12-21T00:57:12 IST" duration-ms="15912">
       <class name="Test.DemoProjectFramework.EBayTest">
-        <test-method is-config="true" signature="driverLaunch()[pri:0, instance:Test.DemoProjectFramework.EBayTest@368247b9]" started-at="2024-12-21T00:27:25 IST" name="driverLaunch" finished-at="2024-12-21T00:27:27 IST" duration-ms="1862" status="PASS">
+        <test-method is-config="true" signature="driverLaunch()[pri:0, instance:Test.DemoProjectFramework.EBayTest@368247b9]" started-at="2024-12-21T00:56:56 IST" name="driverLaunch" finished-at="2024-12-21T00:56:58 IST" duration-ms="2603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverLaunch -->
-        <test-method signature="orderAnItem()[pri:0, instance:Test.DemoProjectFramework.EBayTest@368247b9]" started-at="2024-12-21T00:27:27 IST" name="orderAnItem" finished-at="2024-12-21T00:27:41 IST" duration-ms="13725" status="FAIL">
+        <test-method signature="orderAnItem()[pri:0, instance:Test.DemoProjectFramework.EBayTest@368247b9]" started-at="2024-12-21T00:56:58 IST" name="orderAnItem" finished-at="2024-12-21T00:57:12 IST" duration-ms="13260" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null]]>

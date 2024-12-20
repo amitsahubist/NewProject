@@ -24,8 +24,8 @@ public class EBayTest extends BaseTest  {
 	ReusableMethods.ScreenCapture();
 	boolean flag = itemToAdd.itemExistInCart();	//Verify if item added in cart
 	Assert.assertTrue(flag);					//	
-	itemToAdd.removeItemsFromCart(); 			//After test Remove the item from cart
-	
+	itemToAdd.removeItemsFromCart();			//After test Remove the item from cart
+	driver.quit();  							//Close all instance of browser
 	
 	}
 	

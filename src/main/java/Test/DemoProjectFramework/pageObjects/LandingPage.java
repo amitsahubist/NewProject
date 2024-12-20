@@ -29,7 +29,6 @@ public class LandingPage {
 	public void gotoUrl (String url)
 	{
 		BaseTest.driver.get(url);
-		BaseTest.driver.manage().window().maximize();
 	}
 	
 	public void searchItem(String item)
