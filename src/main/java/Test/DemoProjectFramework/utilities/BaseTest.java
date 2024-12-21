@@ -19,6 +19,11 @@ public class BaseTest {
 	BaseTest.driver.manage().window().maximize();
 	}
 	
+	public void closeBrowser ()
+	{
+		driver.quit();
+	}
+	
 	
 	
 

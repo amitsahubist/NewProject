@@ -31,14 +31,13 @@ public class ReusableMethods {
 			}
 		}
 
-		public static void switchToChildWindow() {
+		public static void switchToChildWindow() 
+		{
 			windowhandle();
 			BaseTest.driver.switchTo().window(childWindow);
-
 		}
 
 		public static void switchToParentWindow() {
-			// windowhandle(BaseTest.driver);
 			BaseTest.driver.switchTo().window(parentwindow);
 		}
 // ##### Parent child Browsers End #######	
@@ -48,7 +47,6 @@ public class ReusableMethods {
 		
 		public static void explicitWait (WebElement element)
 		{
-
 			WebDriverWait wait = new WebDriverWait(BaseTest.driver, Duration.ofSeconds(10));
 			wait.until(ExpectedConditions.elementToBeClickable(element));
 		}
@@ -61,10 +59,7 @@ public class ReusableMethods {
 		{
 			File screenshot = ((TakesScreenshot) BaseTest.driver).getScreenshotAs(OutputType.FILE);
 			
-			String path = System.getProperty("user.dir") + "/Screenshot/" + System.currentTimeMillis()
-			+ ".png";
-			
-			System.out.println(path);
+			String path = System.getProperty("user.dir") + "/Screenshot/" + "EBay_Cart_"+System.currentTimeMillis()	+ ".png";
 			
 			File destinationFile = new File(path);
 			try {

@@ -3,17 +3,15 @@ package Test.DemoProjectFramework.pageObjects;
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import Test.DemoProjectFramework.utilities.BaseTest;
 import Test.DemoProjectFramework.utilities.ReusableMethods;
 
 public class ProductPage {
 	
-WebDriver driver;
+
 	
 	public ProductPage ()
 	{	
@@ -37,8 +35,8 @@ WebDriver driver;
 	
 	public boolean itemExistInCart()
 	{
-		List<WebElement> cartItems = 	driver.findElements(By.xpath("//*[@id='gh-cart-n']"));
-			
+		List<WebElement> cartItems = 	BaseTest.driver.findElements(By.xpath("//*[@id='gh-cart-n']"));
+		
 		if(cartItems.size()>0) {
 			return true;
 		}
