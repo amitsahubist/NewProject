@@ -1,6 +1,5 @@
 package Test.DemoProjectFramework.pageObjects;
 
-
 import Test.DemoProjectFramework.utilities.*;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
