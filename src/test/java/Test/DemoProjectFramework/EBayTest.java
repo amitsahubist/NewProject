@@ -1,5 +1,4 @@
 package Test.DemoProjectFramework;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
